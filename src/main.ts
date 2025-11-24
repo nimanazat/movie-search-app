@@ -11,6 +11,7 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
+//Toast message pop up on the top right
 app.use(Toast, {
   position: 'top-right',
   timeout: 3000,
