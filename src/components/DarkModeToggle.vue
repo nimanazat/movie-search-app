@@ -6,7 +6,7 @@ import { onMounted, ref } from 'vue'
 const darkMode = useLocalStorage('darkMode', false)
 
 const isHovered = ref(false)
-
+//dark mode toggle
 const toggleDarkMode = () => {
   darkMode.value = !darkMode.value
   darkMode.value
