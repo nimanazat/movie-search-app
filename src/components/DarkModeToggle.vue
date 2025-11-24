@@ -18,6 +18,7 @@ onMounted(() => {
     ? document.documentElement.classList.add('dark')
     : document.documentElement.classList.remove('dark')
 })
+//onMounted
 </script>
 
 <template>
