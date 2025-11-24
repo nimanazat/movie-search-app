@@ -32,6 +32,14 @@ const MOCK_USERS = [
     name: 'Bashar',
     role: 'member' as const,
   },
+  //nima
+  {
+    id: '3',
+    email: 'admin@movie.com',
+    password: 'admin1234',
+    name: 'Nima',
+    role: 'admin' as const,
+  },
 ]
 
 export const useAuthStore = defineStore('authStore', () => {
